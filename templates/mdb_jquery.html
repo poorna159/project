@@ -1,0 +1,128 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+    <style>
+        h1
+{  background:linear-gradient(360deg,yellow,red,pink,blue,orange,black,white,brown);
+   animation: poorna 2s 1s infinite forwards linear;
+   color:ghostwhite;
+   text-align: center;
+   border-radius: 45px;
+   
+}
+@keyframes poorna {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    25%{
+        filter: hue-rotate(90deg);
+    }
+    50%{
+        filter: hue-rotate(180deg);
+    }
+    75%{
+        filter: hue-rotate(270deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+body
+      {
+          text-align: justify;
+         background-image:url(https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.webp?b=1&s=170667a&w=0&k=20&c=iJp6e2C-l2lRmyG3ColHMpXe0QYrPnrfQQc2O6PsYC4=);
+         background-size: cover;
+      }
+      .btn-danger
+      {
+          background:linear-gradient(200deg,whitesmoke,blue,white,black);
+      }
+      .card-title
+      {
+        color:white;
+      }
+      li 
+      {
+        color: white;
+      }
+      img
+      {
+        border-radius:45px;
+        border:3px double yellow;
+      }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Jspiders Marthahalli</h1>
+      <div class="container d-flex mt-5">
+          <div class="card m-3" style="width: 400px;">
+              <img src="{% static 'images/python.png' %}" alt="" class=""img-fluid>
+              <div class="card-body text-align-center">
+                  <h3 class="card-title">
+                  Python Full Stack Development
+              </h3>
+                <ol type="1" class="card-text p-3">
+                  <li>“Python.” – ...</li>
+                  <li>“Django(Framework).” – ...</li>
+                  <li>Web Technology
+                  </li>
+                  <li>SQL</li>
+                </ol>
+                
+                <a href="https://www.instagram.com/jspiders_marathahalli/" class="btn btn-danger mx-5">Read more</a>
+              </div>
+          </div>
+  
+      <!-- </div> -->
+      <!-- <div class="container d-flex mt-5"> -->
+          <div class="card m-3" style="width: 400px;">
+              <img src="{% static 'images/java.png' %}" alt="" class=""img-fluid>
+              <div class="card-body text-align-center">
+                  <h3 class="card-title">
+                  Java Full Stack Development
+              </h3>
+              <ol type="1" class="card-text p-3">
+                <li>“Java.” – ...</li>
+                <li>“Advance Java(Framework).” – ...</li>
+                <li>Web Technology
+                </li>
+                <li>SQL</li>
+              </ol>
+              <a href="https://www.instagram.com/jspiders_marathahalli/" class="btn btn-danger mx-5">Read more</a>
+              </div>
+          </div>
+  
+      <!-- </div> -->
+      <!-- <div class="container d-flex mt-5"> -->
+          <div class="card m-3" style="width: 400px;">
+              <img src="{% static 'images/mern.jpg' %}" alt="" class="img-fluid">
+              <div class="card-body text-align-center">
+                  <h3 class="card-title">
+                  Mern Full Stack Development
+              </h3>
+              <ol type="1" class="card-text p-3">
+                <li>“React Js.” – ...</li>
+                <li>“Node Js , Angular Js.” – ...</li>
+                <li>Web Technology
+                </li>
+                <li>SQL</li>
+              </ol>
+              <a href="https://www.instagram.com/jspiders_marathahalli/" class="btn btn-danger mx-5">Read more</a>
+              </div>
+          </div>
+          </div>  
+   
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/mdb.js' %}"></script>
+</center>
+</body>
+</html>
